@@ -4,15 +4,13 @@ namespace Cmd;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\Player;
-use pocketmine\Server;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 
 class Main extends PluginBase{
 
     public function onEnable(){
-
-        $this->getServer()->getLogger("FHJG Enabled");
+    
     }
 
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool{
