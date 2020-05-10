@@ -5,5 +5,5 @@ projects:
   FHJG:
     path: ""
     lint:
-    phpstan: false
+      phpstan: false
 ...
