@@ -18,7 +18,7 @@ class Main extends PluginBase{
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool{
 
         switch($cmd->getName()){
-            case "f": 
+            case "feed": 
 if($sender->hasPermission("feed.jg")){
 $sender->setFood(20);
 $sender->setSaturation(20);    
@@ -27,7 +27,7 @@ $sender->sendMessage("[CONSOLE] Has Feed Your Hunger!");
     $sender->sendMessage("[!] No permission please message staff if needed");
 }
 break;
-case "h": 
+case "heal": 
 if($sender->hasPermission("heal.jg")){
 $sender->setHealth(20);
 $sender->sendMessage("[CONSOLE] Has Healed You!");
