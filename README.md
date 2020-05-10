@@ -1,10 +1,11 @@
 # FHJG
 Used to heal and feed you! Very op for pvp
 # How to use FHJG?
-Heal: /h
-Feed: /f
+Heal: /heal
+Feed: /feed
 
 # Permission's
 Heal: heal.jg
+
 Feed: feed.jg
 
