@@ -21,6 +21,7 @@ class Main extends PluginBase{
             case "f": 
 if($sender->hasPermission("feed.jg")){
 $sender->setFood(20);
+$sender->setSaturation(20);    
 $sender->sendMessage("[CONSOLE] Has Feed Your Hunger!");
 } else {
     $sender->sendMessage("[!] No permission please message staff if needed");
