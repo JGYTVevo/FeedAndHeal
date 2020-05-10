@@ -1,11 +1,11 @@
 name: FHJG
 version: 1.0.0
-api: 3.12.0
+api: 3.0.0
 author: JGYTVevo
 main: Cmd\Main
 
 commands: 
- f:
+ feed:
   description: Feed command
- h:
+ heal:
   descritpion: Heal Command
