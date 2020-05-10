@@ -1,2 +1,3 @@
 # FHJG
-FEED AND HEAL PLUGIN FROM JGYTVEVO Custom Coded!
+Used to heal and feed you! Very op for pvp
+
