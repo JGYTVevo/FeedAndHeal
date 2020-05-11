@@ -1,6 +1,6 @@
 <?php
 
-namespace JGYTVevo\FHJG;
+namespace JGYTVevo\FHJG\Main;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\Player;
