@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace JGYTVevo/FeedAndHeal;
+namespace JGYTVevo/FHJG;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\Player;
