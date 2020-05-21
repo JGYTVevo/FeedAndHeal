@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace JGYTVevo/FHJG;
+namespace JGYTVevo/FeedAndHeal;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\Player;
@@ -13,7 +13,8 @@ use pocketmine\Server;
 class Main extends PluginBase{
 
     public function onEnable(){
-    
+        $this->getServer()->getPluginManager()->registerEvents($this, $this);    
+        $this->getLogger()->info(TextFormat::GREEN . "Feed And Heal Activated! Author: JGYTVevo");
     }
 
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool{
