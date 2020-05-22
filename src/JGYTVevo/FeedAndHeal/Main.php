@@ -14,7 +14,7 @@ class Main extends PluginBase{
 
     public function onEnable(){
         $this->getServer()->getPluginManager()->registerEvents($this, $this);    
-        $this->getLogger()->info("§aFeed And Heal Activated! §bAuthor: JGYTVevo");
+        $this->getLogger()->info("Feed And Heal Activated! §bAuthor: JGYTVevo");
     }
 
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool{
