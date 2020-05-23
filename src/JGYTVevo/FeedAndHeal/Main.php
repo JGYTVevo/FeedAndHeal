@@ -11,7 +11,6 @@ use pocketmine\command\CommandSender;
 use pocketmine\Server;
 
 class Main extends PluginBase{
-    }
 
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool{
 
