@@ -1,6 +1,6 @@
 name: FHJG
 version: 1.0.3
-api: [3.0.0, 3.12.1]
+api: 3.0.0
 author: JGYTVevo
 main: JGYTVevo\FeedAndHeal\Main
 
