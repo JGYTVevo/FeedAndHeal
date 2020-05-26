@@ -9,7 +9,7 @@ use pocketmine\Player;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\Server;
-use pocketmine\utils\TextFormat;
+use pocketmine\utils\TextFormat as C;
 
 class Main extends PluginBase{
 
@@ -22,15 +22,15 @@ $sender->setFood(20);
 $sender->setSaturation(20);    
 $sender->sendMessage("You have been fed!");
 } else {
-    $sender->sendMessage(TextFormat:: RED. "Error: No permission!");
+    $sender->sendMessage(C:: RED. "Error: No permission!");
 }
 break;
 case "heal": 
 if($sender->hasPermission("heal.jg")){
 $sender->setHealth(20);
-$sender->sendMessage(TextFormat:: GREEN. "You have been healed!");
+$sender->sendMessage(C:: GREEN. "You have been healed!");
 } else {
-    $sender->sendMessage(TextFormat:: RED. "Error: No permission");
+    $sender->sendMessage(C:: RED. "Error: No permission");
 }
 break;
         }
